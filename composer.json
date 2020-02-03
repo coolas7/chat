@@ -1,0 +1,14 @@
+{   
+    "name": "vytautas-uoga/task",
+    "description": "Uzduotis",
+    "require": {
+	"php": ">=7.0",
+        "monolog/monolog": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+		"VytautasUoga\\Task\\": "src"
+	}
+    }
+
+}
